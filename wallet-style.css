@@ -1,0 +1,70 @@
+body{
+    background-color:palevioletred;
+}
+h1{
+    font-size:50px;
+    text-align: center;
+}
+
+div.gallery {
+    border: 5px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 3px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.wallet1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+  div.wallet2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+  div.wallet3 {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  * {
+    box-sizing:border-box;
+  }
+  
+  .responsive {
+    padding: 80px 30px;
+    float:left;
+    width: 33.2%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display:table;
+    clear: both;
+  }
+  .button{
+    background-color: white;
+  color: grey;
+  border: 2px solid white;
+  }
